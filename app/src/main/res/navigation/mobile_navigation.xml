@@ -22,4 +22,10 @@
         android:name="com.github.syafiqq.nsd_test_001.ui.notifications.NotificationsFragment"
         android:label="DNS_SD"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.github.syafiqq.nsd_test_001.ui.notifications.NotificationsFragment"
+        android:label="DNS_SD_E"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
