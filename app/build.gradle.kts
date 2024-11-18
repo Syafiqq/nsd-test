@@ -50,6 +50,7 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(files("libs/jmdns-3.5.1.jar"))
     implementation("org.slf4j:slf4j-api:2.0.16")
+    implementation(libs.dnssd)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
